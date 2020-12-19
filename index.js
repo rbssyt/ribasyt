@@ -1,9 +1,9 @@
-const  XBOT = 'AMPIBI'; // Nama Bot Whatsapp
-const instagram = 'https://instagram.com/affis_saputro123'; // Nama Instagramlu cok
-const nomer = 'https://Wa.me/+6282334297175'; // Nomor whatsapplu cok
+const  RBOT = 'AMPIBI'; // Nama RIBASBOT Whatsapp
+const instagram = 'https://instagram.com/rbs.420?igshid=1edbmclj7n9rl'; // Nama Instagramlu cok
+const nomer = 'https://Wa.me/+6282193030283'; // Nomor whatsapplu cok
 const aktif = 'Tergantung kuota'; // Kapan bot lu aktif
-const groupwa = 'comming soon'; // OFFICIAL GRUP LU 1
-const youtube = 'https://youtube.com/channel/UCYKxsg7iF9a9IZyXQRNsvqw'; 
+const groupwa = 'comming soon'; // OFFICIAL GRUP LU 2
+const youtube = 'https://youtube.com/channel/UCVoeo63MfuTBPXlbj-ldX3Q'; 
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
 const cheerio = require("cheerio");
@@ -22,8 +22,8 @@ const readTextInImage = require('./lib/ocr')
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
             + 'FN:affis\n' // full name
-            + 'ORG:Owner  XBOT Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=6282334297175:+62 823-3429-7175\n' // WhatsApp ID + phone number
+            + 'ORG:Owner  RBOT Bot;\n' // the organization of the contact
+            + 'TEL;type=CELL;type=VOICE;waid=6282193030283:+62 821-9303-0283\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 
 const
@@ -58,7 +58,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] XBOT Ready scan now!`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] RBOT Ready scan now!`);
 });
 
 conn.on('credentials-updated', () =>
